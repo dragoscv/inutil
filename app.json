@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "inutil",
+    "icon": "./assets/logo.png",
+    "version": "1.0.0",
+    "slug": "inutil",
+    "backgroundColor": "#000000",
+    "splash": {
+      "image": "./assets/banner.png",
+      "backgroundColor": "#000000",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "bundleIdentifier": "com.dragos.inutil",
+      "buildNumber": "1.0.2",
+      "requireFullScreen": true
+    },
+    "android": {
+      "package": "com.dragos.inutil",
+      "versionCode": 2,
+      "permissions": [
+        "CAMERA",
+        "READ_PHONE_STATE",
+        "RECORD_AUDIO",
+        "READ_CONTACTS"
+      ]
+    }
+  }
+}
